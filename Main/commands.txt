@@ -1,0 +1,12 @@
+Make a virtual env : virtualenv "name"
+Activate the virtual env : env/Scripts/activate
+Save the versions of libraries you used in a requirements file: pip freeze --local > requirement.txt
+To get back to the general env : deactivate
+To remove the Virtual Env : rm -rf "name"
+To install requirements : pip install -r requirements.txt
+
+
+Pytest:
+to run tests: pytest 
+to run a specific test : pytest "file"::"function"
+to make prints appear : add -s flag at the end
